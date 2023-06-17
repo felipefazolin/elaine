@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+
+        * {
+            font-family: 'Open Sans', sans-serif;
+            padding: 0;
+            margin: 0;
+            vertical-align: baseline;
+            list-style: none;
+            border: 0;
+            font-size: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .general {
+            height: auto;
+            width: 800px;
+
+        }
+
+        .header {
+
+            height: auto;
+            width: 100%;
+
+
+        }
+
+        .header img {
+            width: 100%;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .text {
+
+            height: auto;
+            width: 90%;
+        }
+
+        .text .title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+
+        p {
+            margin-top: 20px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+        }
+
+        .a,
+        .b,
+        .c {
+
+
+            width: 33.3333%;
+            height: auto;
+            text-align: center;
+        }
+
+
+        .a img,
+        .b img,
+        .c img {
+            width: 100%;
+        }
+
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .blue,
+        a {
+            color: #023d84;
+        }
+
+        .s {
+            font-size: 13px;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            background-color: #057c69;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #4f5251;
+        }
+
+        .brand a {
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        .brand .text {
+            width: 90%;
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .general {
+                width: 600px !important;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .general {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="general">
+
+
+            <div class="header">
+                <img src="header2.jpg" alt="sobre saude bem-estar">
+            </div>
+            <div class="main">
+                <div class="text">
+                    <p>
+                        <span class="title">
+                            Profissional de Saúde, queremos ouvir sua opinião!<br>
+                            Como podemos ajudar ainda mais você e seus pacientes?
+
+                        </span>
+                    </p>
+                    <p>
+                        Somos uma Consultoria de Comunicação Estratégica especializada em pesquisas, contratada por
+                        empresa do setor de saúde e bem-estar que está completando 30 anos de atividades, e convidamos
+                        você a participar do Painel de Opinião online.
+                    </p>
+
+
+
+                    <p>
+
+                        O objetivo é ouvir a opinião de médicas e médicos - como você - conectados <span
+                        class="bold blue">ao tema alergia</span>.
+
+                    </p>
+
+                    <p>
+
+                        Ao preencher integralmente, além de contribuir com atualizações sobre o setor,
+                        você receberá, em até 2 dias úteis, um voucher no valor total de R$ 120, em produtos de
+                        bem-estar e saúde, de sua escolha em loja online <span class="s">(informações complementares
+                            após o
+                            preenchimento)</span>.
+
+                    </p>
+
+
+                    <p>
+                        <span class="title">
+                            É rápido, fácil, seguro e confidencial.
+                        </span>
+                    </p>
+
+                    <p>
+
+
+                        Caso tenha dúvidas sobre como responder ou algum tipo de problema técnico com o formulário,
+                        envie uma mensagem para <a href="mailto:contato@sparksbrain.com">contato@sparksbrain.com</a>.
+
+                    </p>
+
+                    <p style="text-align: center;">
+                         <button class="button ">Responder agora!</button>
+                    </p>
+
+
+
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="a">
+                    <img src="icon1.jpg" alt="powered by survey monkey">
+                </div>
+                <div class="b">
+                    <img src="icon2.jpg" alt="pesquisa online bonificada">
+                </div>
+                <div class="c">
+                    <img src="icon3.jpg" alt="organizacao sparksbrain.com">
+                </div>
+            </div>
+
+            <div class="brand">
+                <div class="text">
+                    Este e-mail contém informações sujeitas aos nossos <a href="#">Termos e Condições.</a><br>
+                    Para mais informações sobre como tratamos os seus dados pessoais, consulte a nossa <a
+                        href="#">Política de Privacidade.</a><br>
+                    @2023 | Spark´s Brain Strategy & Content Agency | sparksbrain.com<br>
+                    <a href="#">Cancelar inscrição</a>.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
